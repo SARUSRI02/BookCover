@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff8ef;
+    color: #333;
+}
+
+h1 {
+    background-color: #7b241c;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    font-size: 35px;
+}
+header {
+    background-color: #7b241c;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+nav {
+    background-color: #333;
+    text-align: center;
+    padding: 18px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: orange;
+}
+
+.welcome {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+footer {
+    background-color: #7b241c;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.menu-title {
+    text-align: center;
+    margin: 30px;
+    color: #7b241c;
+}
+
+.menu-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 30px;
+}
+
+.food {
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+    border: 2px solid #7b241c;
+    border-radius: 10px;
+}
+
+.food h3 {
+    color: #7b241c;
+    margin-bottom: 10px;
+}
+
+.food p {
+    color: #d35400;
+    font-weight: bold;
+}
+.admin-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    padding: 30px;
+}
+
+.admin {
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #7b241c;
+    border-radius: 12px;
+}
+
+.admin img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.admin h3 {
+    color: #7b241c;
+    margin: 10px;
+}
+
+.banner {
+    background-image: url("images/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+}
+
+.banner h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.banner p {
+    font-size: 20px;
+    margin: 8px;
+}
